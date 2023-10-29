@@ -58,30 +58,37 @@
           </a>
         </li>
       </ul>
-      <div class="mobile-menu">
-        <input class="mobile-menu__toggle" type="checkbox" id="toggle" />
-        <label class="mobile-menu__btn" for="toggle"
-          ><span class="mobile-menu__icon"></span
-        ></label>
-        <div class="mobile-menu__bg"></div>
-        <address class="mobile-adress">
-          <a class="mobile-contacts-link" href="tel:+380684439426"
+      <button type="button" class="menu-open-btn">
+        <svg class="menu-open-btn-icon" width="36" height="24">
+          <use href="./img/icons.svg#icon-menu-btn"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mob-menu is-open">
+      <div>
+        <address class="header-adress">
+          <a class="header-contacts-link" href="tel:+380684439426"
             >+380 (68) 443-94-26</a
           >
         </address>
-        <nav class="mobile-menu__nav">
-          <ul class="mobile-menu__list">
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link" href="./index.html">About us</a>
+        <button type="button" class="menu-close-btn">
+          <svg class="menu-close-btn-icon" width="36" height="36">
+            <use href="./img/icons.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+        <nav class="header-navigation">
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="./index.html">About us</a>
             </li>
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link" href="">Our collection</a>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Our collection</a>
             </li>
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link" href="">Customer order</a>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Customer order</a>
             </li>
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link" href="">Testimonials</a>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="">Testimonials</a>
             </li>
           </ul>
         </nav>
