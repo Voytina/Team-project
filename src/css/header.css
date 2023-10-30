@@ -22,7 +22,7 @@
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
-  transition: color 300ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover,
@@ -45,7 +45,7 @@
   padding: 14px 28px;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  transition: border-color 300ms linear;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
 }
 
@@ -72,7 +72,8 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: rgba(252, 249, 249, 0.1);
-  transition: border-color 300ms linear, background-color 300ms linear;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
   fill: #fcf9f9;
@@ -101,10 +102,14 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
-  width: 100vw;
+  right: 0;
+  width: 274px;
   height: 100vh;
+  padding: 20px;
   background-color: #ecd979;
+  background-image: url(../img/vyshyvanka.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -118,22 +123,57 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.menu-contact-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 186px;
+}
+
+.menu-contacts {
+  color: #1c2225;
+  font-size: 12px;
+  line-height: 1.17;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  padding: 12px 20px;
+  display: inline-flex;
+}
+
+.menu-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .menu-close-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-bottom: 24px;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #e7e9fc;
-  border-radius: 50%;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.menu-close-btn-icon {
+  stroke: #1c2225;
+}
+
+.menu-list {
+  text-align: right;
+}
+
+.menu-link {
+  color: #1c2225;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  text-transform: uppercase;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) {
@@ -144,7 +184,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mob-menu {
+    background-image: url(../img/vyshyvanka-bg-tab.png);
+    width: 380px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .menu-open-btn {
+    display: none;
+  }
+  .header-navigation {
+    display: block;
+  }
+  .header-adress {
+    display: block;
+  }
 }
