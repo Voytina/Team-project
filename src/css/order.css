@@ -1,0 +1,244 @@
+.order {
+    padding-top: 80px;
+}
+
+.order-container-wrap{
+    margin-top: 80px;
+}
+
+.background-girl-img {
+    background-image: url(../img/Image.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 375px;
+        height: 550px;
+        margin: 0 auto;
+        background-size: cover;
+}
+
+@media (min-resolution: 192dpi) {
+    .background-girl-img {
+        background-image: url("../img/Image2x.jpg");
+    }
+}
+
+.order-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.order-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+}
+
+.order-span {
+    color: var(--white, #ECD979);
+}
+
+.order-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-input {
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    padding: 14px 16px;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--white, #FCF9F9);
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: -0.02em;
+        outline: none;
+}
+
+.order-form::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: -0.02em;
+}
+
+.order-textarea {
+    height: 196px;
+}
+
+.order-input:focus,
+.order-input:hover,
+.order-input:active {
+    border-color: rgba(252, 249, 249, 0.60);
+}
+
+.order-btn {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    height: 49px;
+    width: 145px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+    color: var(--white, #FCF9F9);
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        margin-top: 20px;
+}
+
+.order-icon {
+    fill: #ECD979;
+    display: flex;
+    vertical-align: middle;
+}
+
+.order-btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.order-btn:focus,
+.order-btn:hover,
+.order-btn:active {
+    border-color: var(--yellow, #ECD979);
+}
+
+.order-img-wrap {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .order-container-wrap {
+        margin-top: 100px;
+    }
+
+.background-girl-img {
+        background-image: url("../img/Image\(1\).jpg");
+        max-width: 100%;
+        height: 776px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .background-girl-img {
+            background-image: url("../img/Image\(1\)2x.jpg");
+        }
+    }
+
+.order {
+    height: auto;
+    position: relative;
+    background-image: url(../img/elements.png);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+}
+
+.order-wrap {
+}
+
+    .order-title {
+        max-width: 542px;
+            font-size: 44px;
+            font-weight: 500;
+            line-height: 1.31;
+            letter-spacing: -0.03em;
+    }
+
+    .order-form {
+        width: 508px;
+    }
+
+    .order-input {
+        font-size: 16px;
+    }
+
+    .order-form::placeholder {
+        font-size: 16px;
+    }
+
+    .order-btn-wrap {
+        justify-content: start;
+    }
+
+    .order-btn {
+        padding: 14px 39px;
+        height: 50px;
+    }
+
+        
+
+    .order-img-wrap {
+        display: flex;
+        margin-top: 100px;
+        margin-left: auto;
+        justify-content: end;
+        padding-bottom: 79px;
+    }
+
+    .order-img-wrap img {
+    }
+
+    .order-img {
+        margin-left: auto;
+        border-radius: 4px;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1280px) {
+.order{
+    background-image: url(../img/elements1.png);
+        padding-top: 150px;
+}
+
+.background-girl-img {
+    background-image: url("../img/ImageD.jpg");
+    max-width: 100%;
+    height: 776px;
+}
+
+@media (min-resolution: 192dpi) {
+    .background-girl-img {
+        background-image: url("../img/ImageD2x.jpg");
+    }
+}
+
+    .order-container-wrap {
+        display: flex;
+        gap: 50px;
+        justify-content: end;
+        flex-direction: row-reverse;
+        margin-top: 150px;
+        padding-left: 64px;
+    }
+
+    .order-wrap {
+        display: flex;
+    }
+
+
+    .order-img-wrap {
+        display: flex;
+        margin-top: 0;
+    }
+
+
+}
