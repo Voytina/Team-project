@@ -3,8 +3,6 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
-  padding-top: 4px;
-  padding-bottom: 4px;
 }
 .header-logo {
   cursor: pointer;
@@ -16,8 +14,7 @@
   display: flex;
   gap: 25px;
 }
-.header-menu-item {
-}
+
 .header-menu-link {
   font-size: 14px;
   line-height: 1.29;
@@ -58,6 +55,8 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .social-item {
   width: 46px;
@@ -176,17 +175,15 @@
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 375px) {
-  .header-navigation {
-  }
-  .header-adress {
-  }
-}
-
 @media screen and (min-width: 768px) {
   .mob-menu {
     background-image: url(../img/vyshyvanka-bg-tab.png);
     width: 380px;
+    padding: 20px 32px;
+  }
+  .menu-contacts {
+    font-size: 14px;
+    line-height: 1.43;
   }
 }
 
@@ -199,5 +196,8 @@
   }
   .header-adress {
     display: block;
+  }
+  .mob-menu {
+    display: none;
   }
 }
