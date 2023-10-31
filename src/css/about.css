@@ -33,7 +33,7 @@ letter-spacing: 0.03em;
  margin-bottom: 50px;
 }
 
-.photo-vyshyvanka {
+.photo-vyshyvanka-about {
  border-radius: 4px;
  margin: 0 auto;
  width: 335px;
@@ -71,8 +71,9 @@ letter-spacing: 0.03em;
      .about-content {
         margin-bottom: 40px;
      }
-    .photo-vyshyvanka{
-      width: 100%;
+      .photo-vyshyvanka-about{
+      width: 704px;
+      height: 545px;
     }
         }
 
@@ -98,7 +99,8 @@ letter-spacing: 0.03em;
        margin-bottom: 0;
     }
 
-    .photo-vyshyvanka {
-      
+    .photo-vyshyvanka-about {
+      width: 594px;
+      height: 545px;
     }
 }
