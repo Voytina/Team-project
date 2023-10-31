@@ -30,6 +30,7 @@
   text-transform: uppercase;
   display: flex;
   height: 49px;
+  width: 156px;
   padding: 14px 36px;
   justify-content: center;
   align-items: center;
@@ -44,7 +45,11 @@
 
 .hero-btn:focus,
 .hero-btn:hover {
-  border-color: 1px solid #ecd979;
+  border-color: #ecd979;
+}
+
+.hero-btn:active {
+  border-color: #ecd979;
 }
 
 .hero-btn-icon {
@@ -57,10 +62,6 @@
 }
 
 .eclips-pc {
-  position: absolute;
-  bottom: 0;
-  right: 32px;
-  margin-bottom: -98px;
   display: none;
 }
 
@@ -106,8 +107,9 @@
   .hero-btn {
     font-size: 16px;
     margin-left: 141px;
-    margin-bottom: 40px;
     padding: 14px 39px;
+    width: 168px;
+    height: 50px;
   }
 
   .photo-vyshyvanka {
@@ -118,6 +120,7 @@
     position: absolute;
     bottom: 0;
     right: 32px;
+    margin-bottom: -98px;
     display: block;
   }
   .photo-vyshyv {
@@ -143,7 +146,6 @@
   }
 
   .hero-title {
-    font-size: 54px;
     max-width: 518px;
   }
 
@@ -152,7 +154,7 @@
 
   .hero-btn {
     margin-left: 141px;
-    font-size: 16px;
+    margin-bottom: 0;
   }
   .photo-vyshyv {
     max-width: 392px;
@@ -165,7 +167,5 @@
 
   .eclips-pc {
     right: 100px;
-  }
-  .hero-title-btn {
   }
 }
