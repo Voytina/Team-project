@@ -1,14 +1,25 @@
 
+.footer-container::before{
+  content:'';
+  position: absolute;
+  top: auto;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(252, 249, 249, 0.10);
+
+ 
+}
 .footer-container{
   background-image: url(../img/ornam-foot-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
  min-height: 649px;
- padding-top: 40px;
- border-top: 1px solid rgba(252, 249, 249, 0.10);
+
+ /*border-top: 1px solid rgba(252, 249, 249, 0.10);*/
  padding-top: 80px;
   
 }
+
   
 
 @media (min-device-pixel-ratio: 2),
@@ -16,6 +27,7 @@
   (min-resolution: 2dppx) {
   .ornament{
     background-image: url(../img/ornam-foot-mob-2.png);
+   
   }
 }
 
@@ -25,6 +37,7 @@
     flex-wrap: wrap;
     gap: 25px 40px;
     margin-bottom: 40px;
+    padding-top: 40px;
 
 }
 
@@ -39,6 +52,7 @@
  min-width: 116px;
     font-size: 14px;
     line-height: 1.29;
+    text-transform: uppercase;
 }
 
 
@@ -47,6 +61,7 @@
     line-height: 1.23;
     font-weight: 400;
     letter-spacing: -0.03em;
+  
 }
 
 .accent{
@@ -63,9 +78,9 @@
 
     .footer-container{
       background-image: url(../img/ornam-foot-tab.png);
-      background-position: right;
+      background-position:right;
      min-height: 370px;
-     padding-top: 100px;
+    padding-top: 100px;
      padding-bottom: 40px;
       
     }
@@ -74,6 +89,7 @@
   (min-resolution: 2dppx) {
   .ornament{
     background-image: url(../img/ornam-foot-tab-2.png);
+
   }
 }
 
