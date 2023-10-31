@@ -10,8 +10,6 @@
 }
 
 .testimonials-list {
-    /*display: flex;
-    gap: 28px;*/
     margin-top: 64px;
 }
 
@@ -69,6 +67,7 @@
     .testimonials-title {
         line-height: 1.45;
             letter-spacing: -0.03em;
+            font-size: 44px;
     }
 
     .testimonials-item-text {
