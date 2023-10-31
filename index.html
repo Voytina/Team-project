@@ -20,8 +20,8 @@
     />
 
     
-    <script type="module" crossorigin src="/Team-project/assets/index-7bed0165.js"></script>
-    <link rel="stylesheet" href="/Team-project/assets/index-db288929.css">
+    <script type="module" crossorigin src="/Team-project/assets/index-0832ba37.js"></script>
+    <link rel="stylesheet" href="/Team-project/assets/index-353fcab5.css">
   </head>
 
   <body>
@@ -125,18 +125,20 @@
 
     <main>
       <section class="hero-section">
-  <div class="container">
-    <h1 class="hero-title">
-      Reviving the traditional <span class="hero-span">Ukrainian</span> artistry
-      in every stitch.
-    </h1>
-    <button type="button" class="hero-btn">
-      Order
-      <svg class="hero-btn-icon" width="24" height="24">
-        <use href="/Team-project/assets/icons-5f70ade0.svg#icon-vector"></use>
-      </svg>
-    </button>
-    <picture>
+  <div class="container hero-container">
+    <div class="hero-title-btn">
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="hero-span">Ukrainian</span> artistry in every stitch.
+      </h1>
+      <a class="hero-btn" href="#you-order-id"
+        >Order
+        <svg class="hero-btn-icon" width="24" height="24">
+          <use href="/Team-project/assets/icons-5f70ade0.svg#icon-vector"></use>
+        </svg>
+      </a>
+    </div>
+    <picture class="picture">
       <source
         srcset="/Team-project/assets/hero-girl-dsc-c96ad8c2.jpg 1x, /Team-project/assets/hero-girl-dsc-2x-26e454dc.jpg 2x"
         media="(min-width: 1280px)"
@@ -150,13 +152,31 @@
         media="(max-width: 767px)"
       />
       <img
-        class="photo-vyshyvanka"
+        class="photo-vyshyv"
         src="/Team-project/assets/hero-girl-dsc-c96ad8c2.jpg"
         alt="girl in vyshyvanka"
         width="392"
         height="545"
       />
     </picture>
+
+    <picture class="eclips-pc"
+      ><source srcset="../img/eclips-desc.png 1x" media="(min-width: 1280px)" />
+      <source srcset="../img/eclips-tab.png 1x" media="(min-width: 768px)" />
+      <img
+        class="eclips"
+        src="/Team-project/assets/eclips-desc-dfee6ed1.png"
+        alt="vyshyvanka"
+        width="139"
+        height="197"
+      />
+    </picture>
+    <div class="star">
+      <svg class="star-icon" width="52" height="51">
+        <use href="../img/icons.svg#icon-star"></use>
+      </svg>
+      <p class="star-text">all embroidery is made by hand</p>
+    </div>
   </div>
 </section>
 
