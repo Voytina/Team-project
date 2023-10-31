@@ -1,5 +1,8 @@
 .our-collection {
   padding-top: 18px;
+  background-image: url(../img/bc-col-mob.png);
+  background-repeat: no-repeat;
+  background-position: 0 316px;
 }
 .collection-title {
   text-align: center;
@@ -53,7 +56,7 @@
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .collection-cost {
@@ -103,6 +106,11 @@
     width: 342px;
     height: 492px;
   }
+  .our-collection {
+    background-image: url(../img/bc-col-tab.png);
+    background-position: 0 271px;
+    padding-top: 50px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -119,5 +127,10 @@
   .collection-cards {
     width: 347px;
     height: 492px;
+  }
+  .our-collection {
+    background-image: url(../img/bc-col-des.png);
+    background-position: 0 291px;
+    padding-top: 70px;
   }
 }
