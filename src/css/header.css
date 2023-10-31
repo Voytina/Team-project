@@ -30,7 +30,7 @@
 .header-contacts {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 .header-adress {
   display: none;
@@ -54,7 +54,7 @@
 .social-list {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   padding-top: 4px;
   padding-bottom: 4px;
 }
@@ -184,6 +184,13 @@
   .menu-contacts {
     font-size: 14px;
     line-height: 1.43;
+    padding: 14px 28px;
+  }
+  .menu-contact-close {
+    margin-bottom: 223px;
+  }
+  .menu-item:not(:last-child) {
+    margin-bottom: 25px;
   }
 }
 
