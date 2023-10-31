@@ -31,7 +31,7 @@
   }
 }
 
-.menu-list{
+.menu-list-footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,7 +94,7 @@
   }
 }
 
-    .menu-list {
+    .menu-list-footer{
        margin-bottom: 80px;
        
     }
@@ -131,7 +131,7 @@
   background-image: url(../img/ornam-foot-desk-2.png);
 }
 }
-.menu-list {
+.menu-list-footer{
   margin-bottom: 117px;
   
 }
