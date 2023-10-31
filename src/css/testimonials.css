@@ -45,7 +45,6 @@
         text-align: center;
         font-size: 14px;
         line-height: normal;
-        width: 291px;
 }
 
 
@@ -54,6 +53,12 @@
 .testimonials-list li:not(:first-child){
     display: none;
 }
+}
+
+@media screen and (min-width: 768px) {
+    .testimonials-item-text {
+        width: 291px;
+    }
 }
 
 @media screen and (min-width: 768px) {
