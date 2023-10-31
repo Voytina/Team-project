@@ -1,16 +1,18 @@
 <section class="hero-section">
-  <div class="container">
-    <h1 class="hero-title">
-      Reviving the traditional <span class="hero-span">Ukrainian</span> artistry
-      in every stitch.
-    </h1>
-    <button type="button" class="hero-btn">
-      Order
-      <svg class="hero-btn-icon" width="24" height="24">
-        <use href="./img/icons.svg#icon-vector"></use>
-      </svg>
-    </button>
-    <picture>
+  <div class="container hero-container">
+    <div class="hero-title-btn">
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="hero-span">Ukrainian</span> artistry in every stitch.
+      </h1>
+      <button type="button" class="hero-btn">
+        Order
+        <svg class="hero-btn-icon" width="24" height="24">
+          <use href="./img/icons.svg#icon-vector"></use>
+        </svg>
+      </button>
+    </div>
+    <picture class="picture">
       <source
         srcset="./img/hero-girl-dsc.jpg 1x, ./img/hero-girl-dsc-2x.jpg 2x"
         media="(min-width: 1280px)"
@@ -24,12 +26,30 @@
         media="(max-width: 767px)"
       />
       <img
-        class="photo-vyshyvanka"
+        class="photo-vyshyv"
         src="./img/hero-girl-dsc.jpg"
         alt="girl in vyshyvanka"
         width="392"
         height="545"
       />
     </picture>
+
+    <picture class="eclips-pc"
+      ><source srcset="../img/eclips-desc.png 1x" media="(min-width: 1280px)" />
+      <source srcset="../img/eclips-tab.png 1x" media="(min-width: 768px)" />
+      <img
+        class="eclips"
+        src="./img/eclips-desc.png"
+        alt="vyshyvanka"
+        width="139"
+        height="197"
+      />
+    </picture>
+    <div class="star">
+      <svg class="star-icon" width="52" height="51">
+        <use href="../img/icons.svg#icon-star"></use>
+      </svg>
+      <p class="star-text">all embroidery is made by hand</p>
+    </div>
   </div>
 </section>
