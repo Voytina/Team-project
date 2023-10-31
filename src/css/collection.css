@@ -1,0 +1,123 @@
+.our-collection {
+  padding-top: 18px;
+  background-image: url(../img/bc-col-mob.png);
+  background-repeat: no-repeat;
+  background-position: 0 316px;
+}
+.collection-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.collection-container {
+}
+.collection-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collection-list-item {
+}
+.collection-card-first {
+}
+.collection-cards {
+  /*transition: box-shadow 0.3s;*/
+}
+
+/*.collection-cards:hover {
+  box-shadow: 2px 2px 30px 1px rgb(60, 68, 72);
+} */
+
+.collection-img {
+  margin-bottom: 18px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.collection-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.collection-cost {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.span-collection-points {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .collection-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+  .span-collection-ring {
+    display: none;
+  }
+  .span-collection-points {
+    visibility: visible;
+    letter-spacing: -0.08em;
+  }
+  .collection-name {
+    font-size: 18px;
+  }
+
+  .collection-cost {
+    font-size: 18px;
+  }
+
+  .collection-card-first {
+    width: 342px;
+    height: 492px;
+  }
+  .collection-cards {
+    width: 342px;
+    height: 492px;
+  }
+  .our-collection {
+    background-image: url(../img/bc-col-tab.png);
+    background-position: 0 271px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection-list {
+    gap: 40px 20px;
+  }
+  .collection-container {
+    width: 1082px;
+  }
+  .collection-card-first {
+    width: 347px;
+    height: 492px;
+  }
+  .collection-cards {
+    width: 347px;
+    height: 492px;
+  }
+  .our-collection {
+    background-image: url(../img/bc-col-des.png);
+    background-position: 0 291px;
+    padding-top: 70px;
+  }
+}
