@@ -30,7 +30,7 @@
 .header-contacts {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
 .header-adress {
   display: none;
@@ -206,5 +206,9 @@
   }
   .mob-menu {
     display: none;
+  }
+
+  .header-contacts {
+    gap: 20px;
   }
 }
