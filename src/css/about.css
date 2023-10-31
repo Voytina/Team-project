@@ -1,0 +1,79 @@
+about-vyshyvanka {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.about-vyshyvanka {
+  background-image: url(../img/g8mob.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.about-title {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+.class-vibes {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.04em;
+  max-width: 335px;
+}
+.class-vibes-margin {
+  margin-bottom: 20px;
+}
+.about-content {
+  margin-bottom: 50px;
+}
+.photo-vyshyvanka {
+  border-radius: 4px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .about-vyshyvanka {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .about-vyshyvanka {
+    background-image: url(../img/g8.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+}
+.about-title {
+  font-size: 44px;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+}
+.class-vibes {
+  max-width: 704px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+.about-content {
+  margin-bottom: 40px;
+}
+.photo-vyshyvanka {
+  width: 100%;
+}
+@media screen and (min-width: 1280px) {
+  .about-vyshyvanka {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+  .class-vibes {
+    max-width: 436px;
+  }
+  .about-box {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .about-content {
+    margin-bottom: 0;
+  }
+  .photo-vyshyvanka {
+  }
+}
