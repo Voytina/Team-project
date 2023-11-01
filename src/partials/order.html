@@ -1,32 +1,61 @@
-<section class="order" id="your-order-id">
-    <div class="background-girl-img"></div>
-    <div class="container order-container-wrap">
-        <div class="order-wrap">
-            <h2 class="order-title"><span class="order-span">Your order</span> is our priority: Personalized approach and quality of service</h2>
-            <form class="order-form">
-                <input type="text" name="user-name" class="order-input" id="user-name" placeholder="Enter your full name" required>
-                <input type="email" name="user-email" class="order-input" id="user-email" placeholder="Enter your email" required>
-                <textarea name="user-comment" id="user-comment" class="order-input order-textarea" placeholder="Comments"></textarea>
-                <div class="order-btn-wrap">
-                    <button type="submit" class="order-btn">Send
-                        <svg class="order-icon" width="26" height="26">
-                            <use href="./img/icons.svg#icon-vector"></use>
-                        </svg>
-                    </button>
-                </div>
-            </form>
+<section class="order">
+  <div class="background-girl-img"></div>
+  <div class="container order-container-wrap">
+    <div class="order-wrap">
+      <h2 class="order-title">
+        <span class="order-span" id="your-order-id">Your order</span> is our
+        priority: Personalized approach and quality of service
+      </h2>
+      <form class="order-form">
+        <input
+          type="text"
+          name="user-name"
+          class="order-input"
+          id="user-name"
+          placeholder="Enter your full name"
+          required
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="order-input"
+          id="user-email"
+          placeholder="Enter your email"
+          required
+        />
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          class="order-input order-textarea"
+          placeholder="Comments"
+        ></textarea>
+        <div class="order-btn-wrap">
+          <button type="submit" class="order-btn">
+            Send
+            <svg class="order-icon" width="26" height="26">
+              <use href="./img/icons.svg#icon-vector"></use>
+            </svg>
+          </button>
         </div>
-        <div class="order-img-wrap">
-            <picture>
-                <source 
-                srcset="./img/Image3.jpg 1x, ./img/Image32x.jpg 2x" 
-                media="(min-width: 1280px)" />
-                <source 
-                srcset="./img/Image(2).jpg 1x, ./img/Image(2)2x.jpg 2x" 
-                media="(min-width: 768px)" />
-                <img src="./img/Image(2).jpg" srcset="./img/Image(2).jpg 1x, ./img/Image(2)2x.jpg 2x" alt="vyshyvanka&jacket"
-                    class="order-img">
-            </picture>
-        </div>
+      </form>
     </div>
+    <div class="order-img-wrap">
+      <picture>
+        <source
+          srcset="./img/Image3.jpg 1x, ./img/Image32x.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="./img/Image(2).jpg 1x, ./img/Image(2)2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          src="./img/Image(2).jpg"
+          srcset="./img/Image(2).jpg 1x, ./img/Image(2)2x.jpg 2x"
+          alt="vyshyvanka&jacket"
+          class="order-img"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
