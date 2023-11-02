@@ -14,8 +14,6 @@
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
-.collection-container {
-}
 .collection-img-container {
   display: flex;
   justify-content: center;
@@ -30,15 +28,13 @@
   gap: 20px;
 }
 
-.collection-list-item {
-}
 .collection-card-first {
   transition: box-shadow 0.3s;
 }
 .collection-card-first:hover,
 .collection-card-first:focus {
   box-shadow: 2px 2px 30px 1px rgb(60, 68, 72);
-  border: 1px solid rgba(70, 78, 78, 0.6);
+  outline: 1px solid rgba(70, 78, 78, 0.6);
 }
 .collection-cards {
   transition: box-shadow 0.3s;
@@ -47,7 +43,7 @@
 .collection-cards:hover,
 .collection-cards:focus {
   box-shadow: 2px 2px 30px 1px rgb(60, 68, 72);
-  border: 1px solid rgba(70, 78, 78, 0.6);
+  outline: 1px solid rgba(70, 78, 78, 0.6);
 }
 
 .collection-img {
