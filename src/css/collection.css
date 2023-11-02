@@ -33,7 +33,7 @@
 }
 .collection-card-first:hover,
 .collection-card-first:focus {
-  box-shadow: 2px 2px 30px 1px rgb(60, 68, 72);
+  box-shadow: 0px 0px 4px 3px #ecd979;
   outline: 1px solid rgba(70, 78, 78, 0.6);
 }
 .collection-cards {
@@ -42,10 +42,9 @@
 
 .collection-cards:hover,
 .collection-cards:focus {
-  box-shadow: 2px 2px 30px 1px rgb(60, 68, 72);
+  box-shadow: 0px 0px 4px 3px #ecd979;
   outline: 1px solid rgba(70, 78, 78, 0.6);
 }
-
 .collection-img {
   border-radius: 4px;
   align-items: center;
