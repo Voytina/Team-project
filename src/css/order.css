@@ -1,5 +1,7 @@
 .order {
     padding-top: 80px;
+    max-width: 375px;
+    margin: 0 auto;
 }
 
 .order-container-wrap{
@@ -45,8 +47,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    /*gap: 20px;*/
 }
+
+/*.order-form:nth-child(4) {
+    margin-top: 0;
+}*/
 
 .order-input {
     border-radius: 15px;
@@ -60,7 +66,18 @@
         line-height: normal;
         letter-spacing: -0.02em;
         outline: none;
+        margin-bottom: 20px;
 }
+
+.order-input:focus:valid:not(:placeholder-shown) {
+    border-color: rgba(252, 249, 249, 0.60);
+}
+
+.order-input:invalid:not(:placeholder-shown) {
+    border-color: tomato;
+}
+
+
 
 .order-form::placeholder {
     color: rgba(252, 249, 249, 0.50);
@@ -71,6 +88,7 @@
 
 .order-textarea {
     height: 196px;
+    margin-bottom: 40px;
 }
 
 .order-input:focus,
@@ -109,7 +127,6 @@
 .order-btn-wrap {
     display: flex;
     justify-content: center;
-        margin-top: 20px;
 }
 
 .order-btn:focus,
@@ -124,6 +141,10 @@
 
 
 @media screen and (min-width: 768px) {
+.order {
+    max-width: 768px;
+}
+
     .order-container-wrap {
         margin-top: 100px;
     }
@@ -207,6 +228,7 @@
 .order{
     background-image: url(../img/elements1.png);
         padding-top: 150px;
+        max-width: 1280px;
 }
 
 .background-girl-img {
