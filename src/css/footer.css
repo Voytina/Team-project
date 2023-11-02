@@ -2,22 +2,22 @@
 .footer-container::before{
   content:'';
   position: absolute;
-  top: auto;
+top: -1px;
   height: 1px;
   width: 100%;
   background-color: rgba(252, 249, 249, 0.10);
 
- 
 }
 .footer-container{
   background-image: url(../img/ornam-foot-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
- min-height: 729px;
+ position: relative;
+ padding-top: 40px;
+ min-height: 649px;
+ max-width: 375px;
+ margin: 0 auto;
 
- /*border-top: 1px solid rgba(252, 249, 249, 0.10);*/
- padding-top: 80px;
-  
 }
 
   
@@ -37,18 +37,17 @@
     flex-wrap: wrap;
     gap: 25px 40px;
     margin-bottom: 40px;
-    padding-top: 40px;
-
+    
 }
 
-.menu-item:hover,
-.menu-item:focus{
+.link-footer:hover,
+.link-footer:focus{
   color: var(--yellow, #ECD979);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 
-.menu-item{ 
+.menu-item-footer{ 
  min-width: 116px;
     font-size: 14px;
     line-height: 1.29;
@@ -61,8 +60,7 @@
     line-height: 1.23;
     font-weight: 400;
     letter-spacing: -0.03em;
-    
-  
+     
 }
 
 .accent{
@@ -79,12 +77,13 @@
 
     .footer-container{
       background-image: url(../img/ornam-foot-tab.png);
-      background-position: right bottom;
-     min-height: 370px;
-    padding-top: 100px;
+      background-position: right top;
      padding-bottom: 40px;
-      
+     min-height: 370px;
+     max-width: 768px;
+     
     }
+
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -98,7 +97,7 @@
        margin-bottom: 80px;
        
     }
-    .menu-item{
+    .menu-item-footer{
         min-width: fit-content;
     }
   
@@ -119,11 +118,11 @@
 @media screen and (min-width: 1280px) {
   .footer-container{
     background-image: url(../img/ornam-foot-desk.png);
-   min-height: 370px;
-   padding-top: 150px;
-   padding-bottom: 40px;
+   min-height: 363px;
+   max-width: 1280px;
     
   }
+
   @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -131,6 +130,7 @@
   background-image: url(../img/ornam-foot-desk-2.png);
 }
 }
+
 .menu-list-footer{
   margin-bottom: 117px;
   
